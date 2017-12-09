@@ -5,22 +5,17 @@ body {
 
 .wrapper {
 	width: 80%;
-	height: 800px;
+	height: 100%;
 	margin: 0 auto;
 }
 
 .header { 
-	background-color: #dd3212;
 	width: 100%;
 	height: 150px;
-	text-align: center;
-	position: relative;
-}
-
-#logo {
-	position: absolute;
-	right: 5px;
-	bottom: 15px;
+	background-image: url(images/header.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid red;
 }
 
 .content {
@@ -40,3 +35,21 @@ body {
 #pacifico p{font-family: 'Pacifico', cursive;}
 #gloria p{font-family: 'Gloria Hallelujah', cursive;}
 #eb p{font-family: 'EB Garamond', serif;}
+
+.cardrow {
+	position: relative;
+}
+
+.card1 {
+	right: 10px;
+	position: absolute;
+	border: 1px solid red;
+	background-color: #2483DA;
+}
+
+.card2 {
+	position: absolute;
+	left: 10px;
+	border: 1px solid red;
+	background-color: #2483DA;
+}
