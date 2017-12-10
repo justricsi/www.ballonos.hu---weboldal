@@ -18,8 +18,12 @@ body {
     border: 1px solid red;
 }
 
+#menu {
+
+}
+
 .content {
-	background-color: #17E7E2;
+	background-color: #ECAD12;
 	width: 100%;
 	height: 100%;
 }
@@ -36,20 +40,20 @@ body {
 #gloria p{font-family: 'Gloria Hallelujah', cursive;}
 #eb p{font-family: 'EB Garamond', serif;}
 
-.cardrow {
-	position: relative;
+#cardrow {
+	border: 1px solid red;
 }
 
 .card1 {
 	right: 10px;
-	position: absolute;
-	border: 1px solid red;
-	background-color: #2483DA;
+	border: 1px solid black;
+	background-color: #18CCE6;
+	padding: 10px;
 }
 
 .card2 {
-	position: absolute;
 	left: 10px;
-	border: 1px solid red;
-	background-color: #2483DA;
+	border: 1px solid black;
+	background-color: #18CCE6;
+	padding: 10px;
 }
