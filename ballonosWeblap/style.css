@@ -1,27 +1,28 @@
 body {
-	background-image: url(images/bg.png);
-	background-size: cover;
+    background-image: url(images/bg.png);
+    background-size: cover;
 }
 
 .josefin p{
-	font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .wrapper {
-	width: 80%;
-	height: 100%;
-	margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
 }
 
 .header { 
-	width: 100%;
-	height: 150px;
-	background-image: url(images/header.png);
-	background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+    background-image: url(images/header.png);
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 .column {
+    font-family: 'Josefin Sans', sans-serif;
     float: left;
     padding: 10px;
     height: 100%;
@@ -32,13 +33,12 @@ body {
 .column.side {
     width: 20%;
 }
-.column.side li {
-	list-style-type: none;
+/*.column.side li {
+    list-style-type: none;
 }
 .column.side li a{
-	font-family: 'Indie Flower', cursive;
-	color: black;
-}
+    color: black;
+}*/
 
 /* Middle column */
 .column.middle {
@@ -54,12 +54,24 @@ body {
     clear: both;
 }
 
-.menu {
-	padding: 0px;
+.menu{
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-.menu ul  {
-	font-family: 'Josefin Sans', sans-serif;
+.menu ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.menu li a{
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #b3ffff;
 }
 
 .kapcsolat{
