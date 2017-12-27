@@ -22,7 +22,6 @@ body {
 }
 
 .column {
-	font-family: 'Josefin Sans', sans-serif;
     float: left;
     padding: 10px;
     height: 100%;
@@ -33,12 +32,13 @@ body {
 .column.side {
     width: 20%;
 }
-/*.column.side li {
+.column.side li {
 	list-style-type: none;
 }
 .column.side li a{
+	font-family: 'Indie Flower', cursive;
 	color: black;
-}*/
+}
 
 /* Middle column */
 .column.middle {
@@ -54,24 +54,12 @@ body {
     clear: both;
 }
 
-.menu{
-	font-family: 'Josefin Sans', sans-serif;
-}
-
-.menu ul {
-	margin: 0px;
+.menu {
 	padding: 0px;
-	list-style-type: none;
 }
 
-.menu li a{
-	color: black;
-	display: block;
-	text-decoration: none;
-}
-
-.menu li a:hover {
-    background-color: #b3ffff;
+.menu ul  {
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .kapcsolat{
@@ -95,12 +83,12 @@ body {
 	height: 80px;
 	margin-top: 50px;
 }
-/*Ballonos víz menüpont stílusa*/
+/*Menü1*/
 #piros { 
 	color :red;
 	text-align: center;
 }
-/*19 l-es Szentkirályi ballonos víz menüpont stílusa*/
+/*Menü2*/
 .kartya {
 	border-style: solid;
 	border-width: 2px;
@@ -136,8 +124,6 @@ body {
     top: 25px;
     left: 33%;
     right: 0%;
-<<<<<<< HEAD
-=======
   }
 
   /* Menü3 */
@@ -176,5 +162,4 @@ body {
     top: 25px;
     left: 33%;
     right: 0%;
->>>>>>> 7a1e9026810670dc916f28b31dd1dadd0b3e0fe2
 }
