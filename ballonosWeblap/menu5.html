@@ -48,41 +48,48 @@
 					<p>
 						Ásványvíz rendelés leadható a <strong>rendeles@ballonos.hu</strong> e-mail címen is vagy a <strong>www.ballonos.hu</strong> weboldalon keresztül. Telefonos elérhetőségeinken hétköznap 08.00-16.00 között állunk ügyfeleink rendelkezésére. Kiszállítást a megrendelést követő munkanapra tudunk vállalni, amit <strong>hétköznap 08.00-16.00</strong> között, előre egyeztetett időpontban teljesítünk.
 					</p>
-
-					<form action="">
-						*Megrendelő neve:<br>
-						<input type="text" name="megrendelo" placeholder="Név">
-						<br>
-						*Számlázási cím:<br>
-						<input type="text" name="szamlazasicim" placeholder="">
-						<br>
-						*Szállítási cím:<br>
-						<input type="text" name="szallitasicim" placeholder="">
-						<br>
-						*Telefon:<br>
-						<input type="text" name="tel" placeholder="Telefon">
-						<br>
-						*E-mail cím:<br>
-						<input type="text" name="email" placeholder="E-mail">
-						<br>
-						*Kért szállítási időpont:<br>
-						<input type="text" name="idopont" placeholder="2018-01-04" >
-						<br>
-						*Kiszállítási időszak:<br>
-						<input type="radio" name="idopont" value="" ><strong>8:00-12:00</strong><br>
-						<input type="radio" name="idopont" value="" ><strong>12:00-16:00</strong>
-						<br>
-						*Víz fajtája:<br>
-						<input type="text" name="fajta" >
-						<br>
-						*Megrendelt ballonok száma:<br>
-						<input type="text" name="rendeltballonok" placeholder="">darab
-						<br>
-						*Üres csereballonok száma:<br>
-						<input type="text" name="csereballonok" placeholder="">darab
-						<br>
-						<input type="submit" value="Megrendelés">
-					</form> 
+					
+					<div class="rendeles">
+						<h2>Termék rendelés</h2>
+						<form action="">
+							<label>*Megrendelő neve:</label>
+							<input type="text" name="megrendelo" placeholder="Név">
+							<br>
+							<label>*Számlázási cím:</label>
+							<input type="text" name="szamlazasicim" placeholder="">
+							<br>
+							<label>*Szállítási cím:</label>
+							<input type="text" name="szallitasicim" placeholder="">
+							<br>
+							<label>*Telefon:</label>
+							<input type="text" name="tel" placeholder="Telefon">
+							<br>
+							<label>*E-mail cím:</label>
+							<input type="text" name="email" placeholder="E-mail">
+							<br>
+							<label>*Kért szállítási időpont:</label>
+							<input type="text" name="idopont" placeholder="2018-01-04" >
+							<br>
+							<label>*Kiszállítási időszak:</label><br>
+							<input type="radio" name="idopont" value="" ><strong>8:00-12:00</strong><br>
+							<input type="radio" name="idopont" value="" ><strong>8:00-16:00</strong><br>
+							<input type="radio" name="idopont" value="" ><strong>12:00-16:00</strong>
+							<br>
+							<label>*Víz fajtája:</label>
+							<select id="country" name="country">
+								<option value="australia">Emese</option>
+								<option value="canada">Szentkirályi</option>
+							</select>
+							<br>
+							<label>*Megrendelt ballonok száma:</label>
+							<input type="text" name="rendeltballonok" placeholder="">db
+							<br>
+							<label>*Üres csereballonok száma:</label>
+							<input type="text" name="csereballonok" placeholder="">db
+							<br><br>
+							<input type="submit" value="Megrendelés">
+						</form>
+					</div>
 				</div>
 			</div>
 			<div class="clearer"></div>

@@ -37,6 +37,7 @@ body {
 
 .josefin p{
     font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
 }
 
 .wrapper {
@@ -127,83 +128,108 @@ body {
 	height: 80px;
 	/*margin-top: 50px;*/
 }
+
+/*Főoldal formázása*/
+.ala {
+    float: right;
+    margin-right: 50px;
+}
 /*Menü1*/
 #piros { 
 	color :red;
 	text-align: center;
 }
-
-.table tr {
-    font-family: 'Josefin Sans', sans-serif;
-    width:100%;
+.table {
+    border: 1px solid red;
+    overflow-x: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
+
+}
+
+/*.table tr {
+    font-family: 'Josefin Sans', sans-serif;
+
+}*/
 
 /*Menü2*/
 .kartya {
-	border-style: solid;
-	border-width: 2px;
+    /*border-style: solid;*/
+    /*border-width: 2px;*/
+    /*border-color: #1ac6ff;*/
+    /*position: relative;*/
+
+    border: 2px solid #1ac6ff; /*szélesség, stílus, szín*/
     border-radius: 5px;
-    border-color: #1ac6ff;
     padding-top: 25px; 
     padding-left: 2%;
     padding-bottom: 25px;
     padding-right: 25px;
-    position: relative;
     height: 100%;
 }
 
 .kep {
-	width: 266px;
+	width: 25%;
 	height: 100%;
 	border-style: solid;
     border-width: 2px;
     border-radius: 5px;
     border-color: #1ac6ff;
-    background-color: #1CCFE28A;
+    background-color: #1CCFE2D2;
+    float: left;
 }
 
 .kep img {
-	margin-left: 25%;
+    display: block;
+	margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.szoveg {
+    /*position: absolute;*/
+    font-family: 'Josefin Sans', sans-serif;
+    width: 75%;
+    float: left;
+    padding: 5px;
+    top: 25px;
+    left: 33%;
+    right: 0%;
 }
 
 .felirat {
 	text-align: center;
 }
 
-.szoveg {
-	font-family: 'Josefin Sans', sans-serif;
-    position: absolute;
-    padding: 5px;
-    top: 25px;
-    left: 33%;
-    right: 0%;
-  }
-
   /* Menü3 */
 .kartya2 {
-	border-style: solid;
-	border-width: 2px;
+    /*border: 2px solid #1ac6ff; /*szélesség, stílus, szín
     border-radius: 5px;
-    border-color: #1ac6ff;
     padding-top: 25px; 
     padding-left: 2%;
-    padding-bottom: 25px;
+    padding-bottom: 25px;*/
     padding-right: 25px;
-    position: relative;
+    height: 100%;
 }
 
 .kep2 {
-	width: 266px;
-	height: 100%;
-	border-style: solid;
+    width: 25%;
+    height: 100%;
+    border-style: solid;
     border-width: 2px;
     border-radius: 5px;
     border-color: #1ac6ff;
-    background-color: #1CCFE28A;
+    background-color: #1CCFE2D2;
+    float: left;
 }
 
 .kep2 img {
-	margin-left: 25%;
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .felirat2{
@@ -211,8 +237,10 @@ body {
 }
 
 .szoveg2{
-	font-family: 'Josefin Sans', sans-serif;
-    position: absolute;
+    /*position: absolute;*/
+    font-family: 'Josefin Sans', sans-serif;
+    width: 75%;
+    float: left;
     padding: 5px;
     top: 25px;
     left: 33%;
@@ -249,7 +277,7 @@ body {
     text-align: center;
     padding-top: 10px;
     margin-right: 5px;
-    background-color: #1CCFE28A;
+    background-color: #1CCFE2D2;
 }
 
 /*.kep4 {
@@ -309,7 +337,7 @@ body {
     float: left;
     text-align: center;
     padding-top: 10px;
-    background-color: #1CCFE28A;
+    background-color: #1CCFE2D2;
 }
 
 .szoveg4 {
@@ -319,16 +347,82 @@ body {
     left: 33%;
     right: 0%;
 }
-/*Menü 6 Házhozszállítás*/
-.kep6{
-    float: left;
+
+/*Menü 5 rendelés*/
+.rendeles{
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid #1ac6ff;
+    height: 100%;
     width: 50%;
-}
-.szoveg3{
-    float: left;
-    width: 50%;
+    margin: auto;
+    background-color: white;
 }
 
+.rendeles h2 {
+    text-align: center;
+    background-color: #1090EE;
+}
+
+.rendeles input[type="text"],
+.rendeles select {
+    display: inline-block;
+    float: right;
+}
+
+.rendeles input[type="submit"] {
+    width: 100%;
+    background-color: #1090EE;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: auto;
+    float: middle;
+}
+
+.rendeles form {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+/*Menü 6 Házhozszállítás*/
+.kartya4 {
+    /*border: 2px solid #1ac6ff; /*szélesség, stílus, szín
+    border-radius: 5px;
+    padding-top: 25px; 
+    padding-left: 2%;
+    padding-bottom: 25px;*/
+    padding-right: 25px;
+    height: 100%;
+}
+
+.kep6 {
+    width: 38%;
+    height: 100%;
+    float: left;
+}
+
+.kep img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.szoveg3 {
+    /*position: absolute;*/
+    font-family: 'Josefin Sans', sans-serif;
+    width: 62%;
+    float: left;
+    padding: 5px;
+    top: 25px;
+    left: 33%;
+    right: 0%;
+}
 
 /*Menü 7 - Szénsavas vízadagoló menü*/
 .kep7 {
@@ -341,7 +435,7 @@ body {
     float: left;
     text-align: center;
     padding-top: 10px;
-    background-color: #1CCFE28A;
+    background-color: #1CCFE2D2;
     margin-right: 5px;
 }
 
@@ -356,7 +450,7 @@ body {
     float: left;
     text-align: center;
     padding-top: 10px;
-    background-color: #1CCFE28A;
+    background-color: #1CCFE2D2;
     margin-right: 5px;
 }
 
@@ -384,7 +478,7 @@ body {
     float: left;
     text-align: center;
     padding-top: 10px;
-    background-color: #1CCFE28A;
+    background-color: #1CCFE2D2;
     margin-right: 5px;
 }
 
@@ -398,7 +492,7 @@ body {
     float: left;
     text-align: center;
     padding-top: 10px;
-    background-color: #1CCFE28A;
+    background-color: #1CCFE2D2;
     margin-right: 5px;
 }
 
@@ -413,7 +507,7 @@ body {
     float: left;
     text-align: center;
     padding-top: 10px;
-    background-color: #1CCFE28A;
+    background-color: #1CCFE2D2;
     margin-right: 5px;
 }
 
@@ -428,7 +522,7 @@ body {
     float: left;
     text-align: center;
     padding-top: 10px;
-    background-color: #1CCFE28A;
+    background-color: #1CCFE2D2;
     margin-right: 5px;
 }
 
